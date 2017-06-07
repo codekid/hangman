@@ -159,7 +159,7 @@ def main():
 
 	print "Welcome to Hangman!"
 	print "_ " * wordLength
-	print wordChoice
+	# print wordChoice
 
 	while (done == False) and (guessLimit > 0):
 
