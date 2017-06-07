@@ -174,7 +174,7 @@ def main():
 			isFound = searchLetter(wordChoice, letterChoice)
 			if isFound == False:
 				guessLimit -= 1
-			print "You can make " + str(guessLimit) + " guesses. Good Luck :-)"
+			print "You have " + str(guessLimit) + " wrong guesses remaining. Good Luck :-)"
 
 			# print correctLetters
 			unfinishedWord = printLetters(wordChoice)
